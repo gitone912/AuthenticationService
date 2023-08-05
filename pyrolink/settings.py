@@ -29,7 +29,7 @@ SECRET_KEY = "django-insecure-pmcjlr$4+guv@(j7b=031n9v1ikqon94t4h=-r2&l#t7qb#__w
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.ngrok-free.app',"127.0.0.1",'localhost','singuli.serveo.net','.vercel.app','.now.sh']
+ALLOWED_HOSTS = ['.ngrok-free.app',"127.0.0.1",'localhost','singuli.serveo.net','.vercel.app','.now.sh','edufybackend2.pythonanywhere.com']
 
 
 # Application definition
@@ -208,7 +208,8 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://localhost:8000",
     "http://localhost:5173",
-    'https://edufy-50353.web.app'
+    'https://edufy-50353.web.app',
+    'https://edufyconnect.com'
 ]
 STATIC_URL = "static/"
 STATICFILES_DIRS = os.path.join(BASE_DIR, 'static'),
